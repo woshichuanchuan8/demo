@@ -40,6 +40,9 @@ public class kafkaConssumer {
         conssumer.subscribe(Arrays.asList("first","second"));
 
 
+        System.out.println("git提交测试呢================");
+
+
         //写个死循环阻塞,让他不停的拉取
         while(true) {
             //9.kafka采用的是拉取数据的模式这里拉取数据
@@ -51,5 +54,8 @@ public class kafkaConssumer {
             }
 
         }
+
+
+
     }
 }
