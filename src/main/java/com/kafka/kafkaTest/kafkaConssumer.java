@@ -42,7 +42,7 @@ public class kafkaConssumer {
 
         System.out.println("git提交测试呢================");
         System.out.println("git提交测试呢================");
-
+        System.out.println("git提交测试呢========11111========");
 
         //写个死循环阻塞,让他不停的拉取
         while(true) {
